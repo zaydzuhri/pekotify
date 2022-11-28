@@ -1,0 +1,23 @@
+.song-delete-button {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ca3746;
+    width: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto 0;
+}
+
+.song-delete-button p {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.table-right {
+    width: 10%;
+}
+
+form {
+    padding-right: 20px;
+}

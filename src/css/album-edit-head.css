@@ -1,0 +1,106 @@
+.album-detail {
+    width: 75%;
+    margin: 40px;
+}
+
+.detail-header {
+    max-height: 325px;
+}
+
+.album-detail-img {
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.album-detail-title {
+    vertical-align: top;
+}
+
+.below-album-title {
+    margin-top: 10px;
+    display: flex;
+}
+
+.below-album-title h3 {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.below-album-title p {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.album-detail .song-container th {
+    border-bottom: 1px solid #57595e;
+    padding: 12px 0px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #63656b;
+    background-color: #121212;
+    color-scheme: dark;
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    text-align: center;
+    background-color: #57595e;
+    width: 60px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 90px;
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.edit-button:hover {
+    background-color: #63656b;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    margin-bottom: 5px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.album-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%
+}
+
+.delete-button {
+    text-align: center;
+    background-color: #ca3746;
+    width: 60px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 90px;
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: #eb505f;
+    cursor: pointer;
+}

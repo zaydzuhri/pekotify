@@ -1,0 +1,167 @@
+.song-detail {
+  width: 75%;
+  margin: 40px;
+}
+
+.detail-header {
+  max-height: 350px;
+}
+
+.song-detail-img {
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.song-detail-title {
+  vertical-align: top;
+}
+
+.song-detail-title h1 {
+  font-size: 95px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100vh;
+}
+
+.song-detail-title h2 {
+  font-size: 25px;
+  color: #b3b3b3;
+}
+
+.song-detail-title p {
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+td p {
+  margin-top: 5px;
+}
+
+h2 a {
+  color: #b3b3b3;
+}
+
+.lyric-section p {
+  white-space: pre-wrap;
+}
+
+.player-wrapper {
+  position: fixed;
+  z-index: 2;
+}
+
+.play-section {
+  margin-top: 20px;
+  display: flex;
+  height: 20px;
+  border-bottom: 1px solid #57595e;
+}
+
+.play-section h1 {
+  margin: auto 0;
+}
+
+.play-section img {
+  width: 70px;
+  object-fit: contain;
+}
+
+.play-section img:hover {
+  width: 65px;
+  transition: 0.075s;
+}
+
+.play-image {
+  width: 80px;
+  margin: auto 0;
+}
+
+.edit-button {
+  text-align: center;
+  background-color: #57595e;
+  width: 60px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 90px;
+  border-radius: 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.edit-button:hover {
+  background-color: #63656b;
+  cursor: pointer;
+}
+
+.delete-button {
+  text-align: center;
+  background-color: #ca3746;
+  width: 60px;
+  padding: 10px;
+  margin-top: 100px;
+  margin-right: 90px;
+  border-radius: 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  background-color: #eb505f;
+  cursor: pointer;
+}
+
+p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.song-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+input,
+textarea,
+.drop-button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #63656b;
+  background-color: #121212;
+  margin-bottom: 10px;
+}
+
+input {
+  color-scheme: dark;
+}
+
+.input-file {
+  margin-top: 5px;
+}
+
+.container {
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 50%,
+    rgba(82, 161, 194, 1) 90%,
+    rgba(114, 213, 254, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+}

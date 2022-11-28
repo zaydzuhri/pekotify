@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  web:
+    image: tubes-1:latest
+    ports:
+      - 8008:80
+    volumes:
+      - ./src:/var/www/html
+  db:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: pekotify
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes

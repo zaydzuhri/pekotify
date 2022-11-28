@@ -1,0 +1,266 @@
+.add-type {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+
+.add-type-btn {
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 12px;
+  background-color: #232323;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 13px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.add-type-btn:disabled {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: auto;
+}
+
+.add-type-btn:enabled:hover {
+  background-color: #2a2a2a;
+}
+
+.add-page {
+  width: 75%;
+  margin: 40px;
+}
+
+.input-text {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #63656b;
+  background-color: #121212;
+}
+
+.add-page h2 {
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+.add-page input {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.add-album {
+  width: 30%;
+  margin-right: 50px;
+}
+
+.add-page .button {
+  width: 210px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #57595e;
+  padding: 0px 12px;
+  color: #000000;
+  font-size: 14px;
+  background: #72d5fe;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-page .button:hover {
+  background: #84daff;
+}
+
+.add-album-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+.add-song-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-song {
+  width: 30%;
+}
+
+.available-album-section {
+  width: 75%;
+}
+
+.available-album {
+  min-height: 40vh;
+  width: 100%;
+  background-color: #121212;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.available-album .album {
+  max-width: 75px;
+  text-overflow: ellipsis;
+}
+
+.available-album-section h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.available-song-container img {
+  width: 50px;
+}
+
+.input-file {
+  color: white;
+}
+
+.dropdown-option {
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #63656b;
+  background-color: #121212;
+  margin-bottom: 10px;
+}
+
+.drop-button {
+  background-color: #121212;
+  border: none;
+  cursor: pointer;
+  min-width: 200px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #232323;
+  min-width: 200px;
+  height: 300px;
+  overflow-y: scroll;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .album-content-data:hover {
+  background-color: #121212;
+  color: black;
+}
+.dropdown-content .album-content-data {
+  border: 1px solid #000000;
+}
+
+.dropdown-option:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-option:hover .drop-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+.dropdown-option:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.album-content-data {
+  display: flex;
+  min-height: 30px;
+  align-items: center;
+}
+
+.album-content-data img {
+  object-fit: cover;
+  float: left;
+  max-width: 50px;
+}
+.album-content-data a {
+  text-align: center;
+}
+.album-content-data input {
+  width: 10%;
+  display: flex;
+}
+.album-content-data label {
+  width: 80%;
+}
+
+.album {
+  max-height: 150px !important;
+  padding: 4px !important;
+}
+
+.album-name {
+  font-size: 10px !important;
+  height: 22px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.album-info {
+  font-size: 10px !important;
+}
+
+.input-file {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #63656b;
+  background-color: #121212;
+}
+input {
+  color-scheme: dark;
+}
+
+.add-song select {
+  border-radius: 20px;
+  padding: 0px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #63656b;
+  background-color: #121212;
+  cursor: pointer;
+  width: 232px;
+  padding: 4px 15px;
+  text-overflow: ellipsis;
+}
+
+.add-song option {
+  background: #121212;
+}
+
+.add-song-form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-song-form-vertical {
+  padding-right: 30px;
+}
+
+#input-lirik-lagu {
+  width: 200px;
+  height: 90%;
+}
+
+.add-song-lyrics {
+    width: 100%;
+}

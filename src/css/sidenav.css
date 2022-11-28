@@ -1,0 +1,64 @@
+/* The navigation menu */
+.sidenav {
+  width: 200px;
+  height: 100vh;
+  /* float: left; */
+  background-color: #000000;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #b3b3b3;
+  display: block;
+  transition: 0.3s;
+  font-weight: 800;
+  padding: 8px 8px 8px 32px;
+}
+
+.sidenav a:hover .nav-icon {
+  filter: invert(100%);
+}
+
+/* Change color when hover the links */
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.content-margin {
+  min-width: 200px;
+  min-height: 100vh;
+}
+
+/* Style the logo */
+#logo-img {
+  width: 40px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 8px 8px 32px;
+}
+
+.logo p {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.nav-icon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  margin-right: 8px;
+  filter: invert(80%);
+  transition: 0.3s;
+}

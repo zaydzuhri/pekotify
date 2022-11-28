@@ -1,0 +1,117 @@
+.album-detail {
+  width: 75%;
+  margin: 40px;
+}
+
+.detail-header {
+  max-height: 300px;
+}
+
+.album-detail-img {
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.album-detail-title {
+  vertical-align: top;
+}
+
+.album-detail-title h1 {
+  font-size: 95px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100vh;
+}
+
+.album-detail-title h2 {
+  font-size: 25px;
+  color: #b3b3b3;
+}
+
+.album-detail-title p {
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+.play-section {
+  margin-top: 20px;
+  display: flex;
+  height: 80px;
+}
+
+.play-section h1 {
+  margin: auto 0;
+}
+
+.play-section img {
+  width: 70px;
+  object-fit: contain;
+}
+
+.play-section img:hover {
+  width: 65px;
+  transition: 0.075s;
+}
+
+.play-image {
+  width: 80px;
+  margin: auto 0;
+}
+
+.below-album-title {
+  margin-top: 10px;
+  display: flex;
+}
+
+.below-album-title h3 {
+  margin: auto 0;
+  font-size: 20px;
+}
+
+.below-album-title p {
+  margin: auto 0;
+  font-size: 20px;
+}
+
+.album-detail .song-container th {
+  border-bottom: 1px solid #57595e;
+  padding: 12px 0px;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.edit-button {
+  text-align: center;
+  background-color: #57595e;
+  width: 60px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 90px;
+  border-radius: 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.edit-button:hover {
+  background-color: #63656b;
+  cursor: pointer;
+}
+
+.container {
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 50%,
+    rgba(82, 161, 194, 1) 90%,
+    rgba(114, 213, 254, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+}
